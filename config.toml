@@ -1,0 +1,18 @@
+baseurl = "/"
+metaDataFormat = "yaml"
+
+languageCode = "ru"
+languageLang = "ru"
+defaultContentLanguage = "ru"
+
+title = "Mercedes-37"
+
+publishDir = "public"
+
+relativeURLs = false
+hrefTargetBlank = false
+
+[params]
+description = '''
+'''
+author = "Aventhor"
