@@ -10,7 +10,7 @@ title = "Mercedes-37"
 publishDir = "docs"
 staticDir = "static"
 
-relativeURLs = false
+relativeURLs = true
 hrefTargetBlank = false
 
 [params]
