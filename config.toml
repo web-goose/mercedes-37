@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://web-goose.github.io/mercedes-37/"
 metaDataFormat = "yaml"
 
 languageCode = "ru"
