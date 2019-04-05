@@ -1,0 +1,19 @@
+p {
+    margin: 0.5rem 0;
+}
+a {
+    margin: 0.5rem 0;
+}
+a:hover {
+    text-decoration: none;
+}
+header {
+    margin: 2rem;
+}
+.page-footer {
+    padding-top: 2rem;
+    background-color: #eaeaeb;
+}
+.footer-copyright {
+    background-color: #b8b8b8;
+}
