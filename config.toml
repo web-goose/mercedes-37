@@ -8,7 +8,6 @@ defaultContentLanguage = "ru"
 title = "Mercedes-37"
 
 publishDir = "docs"
-staticDir = "static"
 
 relativeURLs = true
 hrefTargetBlank = false
