@@ -1,19 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Cuprum:400,700&subset=cyrillic');
+body {
+    font-family: "Cuprum";
+    font-weight: 400;
+    font-size: 18px;
+}
 p {
     margin: 0.5rem 0;
+    font-size: 18px;
+    font-family: "Cuprum";
+    font-weight: 400;
+}
+h1 {
+    font-family: "Cuprum";
+    font-weight: 700;
+    font-size: 40px;
+    padding: 1.5rem 0;
+}
+h2 {
+    font-family: "Cuprum";
+    font-weight: 700;
+    font-size: 30px;
+    padding: 1.5rem 0;
+}
+h3 {
+    font-family: "Cuprum";
+    font-weight: 700;
+    font-size: 25px;
+    padding: 1.5rem 0;
 }
 a {
+    font-size: 18px;
+    font-family: "Cuprum";
     margin: 0.5rem 0;
+    color: #3d93ee;
+    transition: 0.4s;
+}
+a:hover {
+    color: #2c6eb4;
+    transition: 0.4s;
+}
+button {
+    background-color: #3d93ee;
+    color: #fff; 
+    border: 1px solid #3d93ee;
+    border-radius: 5px;
+    padding: 0.8rem;
+    transition: 0.4s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #2c6eb4;
+    transition: 0.4s;
+}
+i {
+    font-size: 1.2rem;
+    color: #3d93ee;
+}
+li p {
+    margin: 0;
 }
 a:hover {
     text-decoration: none;
 }
 header {
-    margin: 2rem;
+    padding: 1rem;
+}
+.navbar {
+    background-color: #fff;
+}
+.navbar-brand {
+    font-size: 25px;
+    font-weight: 700;
+}
+.navbar-brand:hover {
+    color: #2c6eb4 !important;
+}
+.nav-item {
+    margin-left: 0.5rem;
+}
+.nav-item a:hover, .nav-item a:focus {
+    color: #2c6eb4 !important;
 }
 .page-footer {
+    margin-top: 2rem;
     padding-top: 2rem;
     background-color: #eaeaeb;
 }
 .footer-copyright {
-    background-color: #b8b8b8;
+    background-color: #fff;
+}
+a i {
+    font-size: 2rem;
+    transition: 0.4s;
+    margin-right: 0.6rem;
+}
+a i:hover {
+    color: #2c6eb4;
+    transition: 0.4s;
 }
