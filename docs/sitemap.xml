@@ -18,11 +18,19 @@
   </url>
   
   <url>
+    <loc>/blog/</loc>
+  </url>
+  
+  <url>
     <loc>/contacts/</loc>
   </url>
   
   <url>
     <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/prices/</loc>
   </url>
   
 </urlset>
