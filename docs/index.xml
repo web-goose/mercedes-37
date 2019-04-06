@@ -11,6 +11,20 @@
     
     
     <item>
+      <title>Контакты</title>
+      <link>/contacts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contacts/</guid>
+      <description>КонтактыАдрес:
+145032, Иваново, Ириновский пр-кт 14 к.1
+Телефон:
++7 (893) 643-7-395Режим работы:
+10:00-21:00 Ежедневно
+--</description>
+    </item>
+    
+    <item>
       <title>О нас</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
