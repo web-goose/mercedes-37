@@ -22,6 +22,11 @@
 	{{ partial "reports.html" }}
 	{{ partial "map.html" }}
 	{{ partial "footer.html" }}
+	<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+	<div id="vk_community_messages"></div>
+	<script type="text/javascript">
+		VK.Widgets.CommunityMessages("vk_community_messages", 127607773, {disableExpandChatSound: "1",disableNewMessagesSound: "1",tooltipButtonText: "Есть вопрос?"});
+	</script>
 	<script src="{{ "scripts/jquery-3.2.1.slim.min.js" | relURL }}"></script>
 	<script src="{{ "scripts/popper.min.js" | relURL }}"></script>
 	<script src="{{ "scripts/bootstrap.min.js" | relURL }}"></script>

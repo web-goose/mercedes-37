@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:400,700&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=Cuprum:400,700&subset=cyrillic');
 body {
+    margin-top: 2rem;
     font-family: "Cuprum";
     font-weight: 400;
     font-size: 18px;
@@ -28,6 +29,11 @@ h3 {
     font-weight: 700;
     font-size: 25px;
     padding: 0.5rem 0;
+}
+h5 {
+    font-family: "Cuprum";
+    font-weight: 700;
+    font-size: 20px;
 }
 a {
     font-size: 18px;
@@ -96,7 +102,7 @@ header {
 .page-footer {
     margin-top: 2rem;
     padding-top: 2rem;
-    background-color: #f3f2f2;
+    background-color: #f2f2f2;
 }
 .footer-copyright {
     background-color: #fff;

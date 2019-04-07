@@ -32,7 +32,7 @@
     </div>
 </div>
 	<header>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light px-4 px-lg-0">
         <div class="container">
             <a class="navbar-brand" href="./">Mercedes 37</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,7 +71,7 @@
         </div>
     </nav>
 </header>
-	<div id="carousel-1" class="carousel slide w-100 carousel-fade" data-ride="carousel">
+	<div id="carousel-1" class="carousel slide w-100 carousel-fade mb-3" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-1" data-slide-to="1"></li>
@@ -167,7 +167,7 @@
 </div>
       
 
-	<div class="container mb-5">
+	<div class="container my-3">
     <div class="row">
         <div class="col-12">
             <hr class="hr-1">
@@ -222,7 +222,7 @@
 	<div class="container my-3">
     <div class="row">
         <div class="col-12">
-            <iframe class="w-100" src="https://yandex.ru/map-widget/v1/-/CCBJ7TiZ" height="400"
+            <iframe class="w-100" src="https://yandex.ru/map-widget/v1/-/CCBJ7TiZ" height="300"
                 frameborder="0" allowfullscreen="true">
             </iframe>
         </div>
@@ -231,8 +231,8 @@
 	<footer class="page-footer">
     <div class="container text-center text-md-left">
         <div class="row">
-            <div class="col-md-3 mx-auto text-center">
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Mercedes 37</h5>
+            <div class="col-md-3 mx-auto text-center text-md-left">
+                <h5 class="text-uppercase mt-3 mb-4">Mercedes 37</h5>
                 <ul class="list-unstyled">
                     <li>
                         <a href="./about">О компании</a>
@@ -258,8 +258,8 @@
                 </ul>
             </div>
             <hr class="clearfix w-100 d-md-none">
-            <div class="col-md-4 mx-auto text-center">
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Режим Работы</h5>
+            <div class="col-lg-3 col-md-6 mx-auto text-center text-lg-left text-md-center">
+                <h5 class="text-uppercase mt-3 mb-4">Режим Работы</h5>
                 <div class="row">
                     <div class="col-6 px-auto">
                         <ul class="list-unstyled">
@@ -314,36 +314,43 @@
                 </div>
             </div>
             <hr class="clearfix w-100 d-md-none">
-            <div class="col-md-2 mx-auto text-center">
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Как нас найти</h5>
+            <div class="col-md-3 mx-auto text-center text-md-left">
+                <h5 class="text-uppercase mt-3 mb-4">Как нас найти</h5>
                 <p>Иваново, 145032,
                     <br>Ириновский пр., 14, корпус 1
                     <br><a href="tel:78936437395">+7 (893) 643-7-395</a>
                     <br>mercedes37@github.io
                 </p>
             </div>
-             <hr class="clearfix w-100 d-md-none">
-            <div class="col-md-3 mx-auto text-center">
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Мы в соц. сетях</h5>
-                <a href="#"><i class="fab fa-vk"></i></a>
+             <hr class="clearfix w-100 d-lg-none">
+            <div class="col-md-3 mx-auto text-center text-lg-left">
+                <h5 class="text-uppercase mt-3 mb-4">Мы в соц. сетях</h5>
+                <a href="https://vk.com/mercedes37"><i class="fab fa-vk"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
     </div>
-    <div class="container footer-copyright text-left py-3 mt-4">
-        <div class="row">
-            <div class="col-6 text-left">
-                <strong>© 2019 Copyright: </strong>
-                <a href="#"> Mercedes-37</a>
-            </div>
-            <div class="col-6 text-right">
-                <strong>Создание сайта - </strong>
-                <a href="#">Aventhor</a>
+    <div class="footer-copyright text-left py-3 mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-left">
+                    <strong>© 2019 Copyright: </strong>
+                    <a href="./"> Mercedes-37</a>
+                </div>
+                <div class="col-6 text-right">
+                    <strong>Создание сайта - </strong>
+                    <a href="#">Aventhor</a>
+                </div>
             </div>
         </div>
     </div>
 </footer>
 
+	<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+	<div id="vk_community_messages"></div>
+	<script type="text/javascript">
+		VK.Widgets.CommunityMessages("vk_community_messages", 127607773, {disableExpandChatSound: "1",disableNewMessagesSound: "1",tooltipButtonText: "Есть вопрос?"});
+	</script>
 	<script src="./scripts/jquery-3.2.1.slim.min.js"></script>
 	<script src="./scripts/popper.min.js"></script>
 	<script src="./scripts/bootstrap.min.js"></script>
